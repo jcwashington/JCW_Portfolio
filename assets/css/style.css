@@ -1,0 +1,98 @@
+/*Global Styles*/
+/* coolors generator: https://coolors.co/f6f1f1-ffffff-234332-216d45-62957a */
+:root {
+    --white: #ffffff;
+    --snow: #f6f1f1;
+    --darkest-green: #0d2b1b;
+    --green: #216d45;
+    --lightest-green: #90b6a2;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--snow);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+ /* --- Header --- */
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkest-green);
+    padding: 20px 30px 20px 0;
+}
+
+.header-name{
+    color: var(--darkest-green);
+    background-color: var(--snow);
+    padding: 5px 1% 5px 5%;
+    margin-left: 0;
+    font-size: 2vw;
+}
+/* --- Navigation --- */
+.nav-links {
+    margin-right: 20px;
+    margin-left: 20px;
+    float: right;
+    font-size: 16px;;
+}
+.nav-links a{
+    color: var(--white);
+    background-color: var(--darkest-green);
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: var(--lightest-green);
+    text-decoration: underline;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    float: right;
+    background-color: var(--darkest-green)
+}
+.nav-links ul li {
+    margin:10px;
+    display: inline-block;
+    background-color: var(--darkest-green)
+}
+
+/* --- Hero Banner --- */
+#hero-banner{
+    /* using vh to set height of banner. 
+    ref link: https://www.usu.edu/template/guide/elements/banners.cfm#:~:text=Height%20Configuration,content%20forces%20it%20to%20expand.*/
+    background-image: url("../images/Green-and-Cream-Brushstroke_blank.png");
+    background-size: cover;
+    background-position: center;
+    padding: 4% 0;
+    min-height: 25vh;
+    color: var(--green);
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* --- Cool Subtitle --- */
+#hero-banner h2{
+    background-color: var(--green);
+    color: var(--snow);
+    margin: 0;
+    padding: 5%;
+}
+
+/* --- Main --- */
+
+
+/* --- Footer --- */
+footer p{
+    font-size: smaller;
+    text-align: center;
+}
