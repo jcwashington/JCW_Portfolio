@@ -18,6 +18,9 @@ body{
     margin: 0;
     padding:0;
 }
+p{
+    color: var(--darkest-green);
+}
 
  /* --- Header --- */
 .main-header {
@@ -110,12 +113,63 @@ body{
     flex: 0 0 75%;
     margin-left: 2%;
 }
-.content-container p{
-    color: var(--darkest-green);
+/* --- About Me Picture --- */
+#about-me div {
+    display: inline-block;
 }
+.self-portrait {
+    float:left;
+    margin-right: 2%;
+    width:20%;
+    border-radius: 50%;
+}
+
 /* --- My Work Section --- */
+#my-work{
+    flex-direction: row;
+}
 
-
+.project-row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.feature-project, .project-card{
+    border: 5px solid var(--green);
+    position:relative;
+    text-align: center;
+    color: var(--snow);
+    margin:3px;
+}
+.project-card{
+    max-width:49%;
+}
+.feature-image{
+    width:100%;
+    vertical-align: middle;
+}
+.project-title{
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: larger;
+    bottom: 20px;
+    padding:1%;
+    background-color: var(--green);
+    color: var(--snow);
+    text-align: left;
+}
+ .feature-image{
+     width:100%;
+     vertical-align: middle;
+ }
+ .project-image {
+     width:100%;
+     height:100%;
+     vertical-align: middle;
+ }
 
 
 /* --- Contact Me --- */
@@ -132,32 +186,20 @@ body{
     display: inline-block;
 }
 .contact-links a{
-    font-size: 16px;
-    color: var(--green);
+    font-size: 20px;
+    color: var(--darkest-green);
 }
 
 .contact-links a:hover{
     color: var(--lightest-green);
     cursor: pointer;
-    font-size: larger;
+    padding: 1%;
+    background-color: var(--darkest-green);
+    box-shadow: 0 0 5px var(--lightest-green); 
 }
+
 /* --- Footer --- */
 footer p{
     font-size: smaller;
     text-align: center;
-}
-
-/* --- Media Classes --- */
-@media screen and (max-width: 768px) {
-    .main-header{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-    .header-name{
-        width:100%;
-        font-size: 2rem;
-    }
-}
-
 }
