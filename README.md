@@ -35,4 +35,4 @@ Site URL: https://jcwashington.github.io/JCW_Portfolio-Advanced-CSS/
 
 Site Preview
 
-![Version 1 of my portfolio website with sections for about me, my work, and contact information] (jcw-portfolio-v1.gif)
+![Version 1 of my portfolio website with sections for about me, my work, and contact information](jcw-portfolio-v1.gif)
