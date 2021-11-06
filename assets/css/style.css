@@ -6,6 +6,7 @@
     --darkest-green: #0d2b1b;
     --green: #216d45;
     --lightest-green: #90b6a2;
+    --yellowgreen: #9ACD32;
   }
 
 * {
@@ -141,6 +142,13 @@ p{
     text-align: center;
     color: var(--snow);
     margin:3px;
+    opacity: 0.5;
+}
+.feature-project:hover, .project-card:hover{
+    border: 5px solid var(--green);
+    color: var(--snow);
+    opacity: 1;
+    box-shadow: 0 0 5px var(--yellowgreen);
 }
 .project-card{
     max-width:49%;
@@ -191,11 +199,10 @@ p{
 }
 
 .contact-links a:hover{
-    color: var(--lightest-green);
     cursor: pointer;
-    padding: 1%;
-    background-color: var(--darkest-green);
-    box-shadow: 0 0 5px var(--lightest-green); 
+    padding: 5px;
+    background-color: var(--green);
+    box-shadow: 0 0 5px var(--yellowgreen); 
 }
 
 /* --- Footer --- */
