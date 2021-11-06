@@ -245,4 +245,7 @@ footer p{
     .project-title {
         font-size: smaller;
     }
+    .contact-links a{
+        font-size: smaller;
+    }
 }
