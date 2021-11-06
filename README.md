@@ -31,6 +31,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Portfolio Preview
 
-Site URL:
+Site URL: https://jcwashington.github.io/JCW_Portfolio-Advanced-CSS/
 
-Site Mockup Screenshot
+Site Preview
+
+![Version 1 of my portfolio website with sections for about me, my work, and contact information] (assets/images/jcw-portfolio-v1.gif)
