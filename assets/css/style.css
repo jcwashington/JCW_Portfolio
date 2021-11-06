@@ -39,6 +39,7 @@ p{
     padding: 5px 1% 5px 5%;
     margin-left: 0;
     font-size: 32px;
+    line-height: 1;
 }
 /* --- Navigation --- */
 .nav-links {
@@ -209,4 +210,11 @@ p{
 footer p{
     font-size: smaller;
     text-align: center;
+}
+
+/* --- Media Classes --- */
+@media screen and (max-width: 980px) {
+    .project-card{
+        max-width:100%;
+    }
 }
