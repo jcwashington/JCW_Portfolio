@@ -172,10 +172,6 @@ p{
     color: var(--snow);
     text-align: left;
 }
- .feature-image{
-     width:100%;
-     vertical-align: middle;
- }
  .project-image {
      width:100%;
      height:100%;
@@ -235,6 +231,7 @@ footer p{
     }
     .project-card{
         max-width:100%;
+        aspect-ratio: 2.95;
     }
 }
 @media screen and (max-width: 600px) { /*Mobile Size*/
